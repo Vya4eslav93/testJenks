@@ -1,0 +1,372 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>failed</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>79</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>4</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>3</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>2</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>2.53</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>.1</td>
+</tr>
+<tr>
+<td>
+<table id="suiteTable" class="selenium" cellspacing="1" cellpadding="1" border="1"><tbody>
+<tr class="title  status_failed"><td><b>Test Suite</b></td></tr>
+<tr class="  status_passed"><td><a href="#testresult0">???????? - ??????????</a></td></tr>
+<tr class="  status_failed"><td><a href="#testresult1">?????·???°?????µ???????????° - ??????????</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult2">?????°?»?µ?????µ???????????° - ??????????</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult3">?????????? - ??????????</a></td></tr>
+</tbody></table>
+
+
+</td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">???????? - ??????????.html</a><br/><div>
+<table cellspacing="1" cellpadding="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">????????</td></tr>
+</thead><tbody>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>open</td>
+	<td>/oc-panel/auth/login/</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>waitForElementPresent</td>
+	<td>css=section#page &gt; form &gt; div.col-sm-offset-2 &gt;&nbsp;&nbsp;button</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>css=section#page &gt; form &gt; div &gt; div &gt;input[name=email]</td>
+	<td>demo@open-eshop.com</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>css=section#page &gt; form &gt; div &gt; div &gt;input[name=password]</td>
+	<td>demo</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=section#page &gt; form &gt; div.col-sm-offset-2 &gt;&nbsp;&nbsp;button</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>waitForText</td>
+	<td>link=Logout</td>
+	<td>Logout</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult1">?????·???°?????µ???????????° - ??????????.html</a><br/><div>
+<table cellspacing="1" cellpadding="1" border="1">
+<thead>
+<tr class="title status_failed"><td rowspan="1" colspan="3">?????·???°?????µ???????????°</td></tr>
+</thead><tbody>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>open</td>
+	<td>/oc-panel</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>waitForElementPresent</td>
+	<td>id=accordion</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=span:contains("eShop")</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=span:contains("Coupons")</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>waitForTitle</td>
+	<td>Coupons</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=a.btn-primary</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>waitForElementPresent</td>
+	<td>css=div.form-actions</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>id=name</td>
+	<td>?????????µ???µ??????</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>id=number_coupons</td>
+	<td>100</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>name=valid_date</td>
+	<td>2017-12-12</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_failed">
+	<td>waitForText</td>
+	<td>css=h4.alert-heading</td>
+	<td>Timed&nbsp;out&nbsp;after&nbsp;30000ms</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>name=name</td>
+	<td>?????????µ???µ??????</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=button.btn</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_failed">
+	<td>waitForTable</td>
+	<td>table[class=table-bordered].1.0</td>
+	<td>Timed&nbsp;out&nbsp;after&nbsp;30000ms</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult2">?????°?»?µ?????µ???????????° - ??????????.html</a><br/><div>
+<table cellspacing="1" cellpadding="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">?????°?»?µ?????µ???????????°</td></tr>
+</thead><tbody>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>open</td>
+	<td>/oc-panel/Coupon</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>waitForElementPresent</td>
+	<td>name=name</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>name=name</td>
+	<td>?????????µ???µ??????</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=button.btn</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>waitForElementNotPresent</td>
+	<td>css=i.glyphicon.glyphicon-step-forward</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=a.btn-danger</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>waitForElementPresent</td>
+	<td>css=button.confirm</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=button.confirm</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>refresh</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>waitForNotTable</td>
+	<td>table.1.0</td>
+	<td>?????????µ???µ??????</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult3">?????????? - ??????????.html</a><br/><div>
+<table cellspacing="1" cellpadding="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">??????????</td></tr>
+</thead><tbody>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>open</td>
+	<td>/oc-panel/Coupon</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>waitForElementPresent</td>
+	<td>css=section#page &gt; form &gt; div.col-sm-offset-2 &gt;&nbsp;&nbsp;button</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+info: Starting test /selenium-server/tests/%D0%B2%D1%85%D0%BE%D0%B4%20-%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.html
+info: Executing: |open | /oc-panel/auth/login/ |  |
+info: Executing: |waitForElementPresent | css=section#page &gt; form &gt; div.col-sm-offset-2 &gt;  button |  |
+info: Executing: |type | css=section#page &gt; form &gt; div &gt; div &gt;input[name=email] | demo@open-eshop.com |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |type | css=section#page &gt; form &gt; div &gt; div &gt;input[name=password] | demo |
+info: Executing: |click | css=section#page &gt; form &gt; div.col-sm-offset-2 &gt;  button |  |
+info: Executing: |waitForText | link=Logout | Logout |
+info: Starting test /selenium-server/tests/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%D0%9A%D1%83%D0%BF%D0%BE%D0%BD%D0%B0%20-%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.html
+info: Executing: |open | /oc-panel |  |
+info: Executing: |waitForElementPresent | id=accordion |  |
+info: Executing: |click | css=span:contains(&quot;eShop&quot;) |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |click | css=span:contains(&quot;Coupons&quot;) |  |
+info: Executing: |waitForTitle | Coupons |  |
+info: Executing: |click | css=a.btn-primary |  |
+info: Executing: |waitForElementPresent | css=div.form-actions |  |
+info: Executing: |type | id=name | ?????????µ???µ?????? |
+info: Executing: |type | id=number_coupons | 100 |
+info: Executing: |type | name=valid_date | 2017-12-12 |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |click | name=submit |  |
+info: Executing: |waitForText | css=h4.alert-heading | Success |
+warn: currentTest.recordFailure: Timed out after 30000ms
+info: Executing: |type | name=name | ?????????µ???µ?????? |
+info: Executing: |click | css=button.btn |  |
+info: Executing: |waitForTable | table[class=table-bordered].1.0 | ?????????µ???µ?????? |
+warn: currentTest.recordFailure: Timed out after 30000ms
+info: Starting test /selenium-server/tests/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%9A%D1%83%D0%BF%D0%BE%D0%BD%D0%B0%20-%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.html
+info: Executing: |open | /oc-panel/Coupon |  |
+info: Executing: |waitForElementPresent | name=name |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |type | name=name | ?????????µ???µ?????? |
+info: Executing: |click | css=button.btn |  |
+info: Executing: |waitForElementNotPresent | css=i.glyphicon.glyphicon-step-forward |  |
+info: Executing: |click | css=a.btn-danger |  |
+info: Executing: |waitForElementPresent | css=button.confirm |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |click | css=button.confirm |  |
+info: Executing: |pause | 500 |  |
+info: Executing: |refresh |  |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |waitForNotTable | table.1.0 | ?????????µ???µ?????? |
+info: Starting test /selenium-server/tests/%D0%B2%D1%8B%D1%85%D0%BE%D0%B4%20-%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.html
+info: Executing: |open | /oc-panel/Coupon |  |
+info: Executing: |click | link=Logout |  |
+info: Executing: |waitForElementPresent | css=section#page &gt; form &gt; div.col-sm-offset-2 &gt;  button |  |
+</pre></body></html>
